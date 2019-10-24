@@ -1,0 +1,29 @@
+.item {
+  display: flex;
+  border: 3px solid green;
+  padding: 25px;
+  margin: 20px auto; 
+  max-width: 850px;
+  justify-content: space-between;
+  flex-direction: row;
+
+  -webkit-box-shadow: 10px -5px 42px 17px rgba(0,0,0,0.28);
+  -moz-box-shadow: 10px -5px 42px 17px rgba(0,0,0,0.28);
+  box-shadow: 10px -5px 42px 17px rgba(0,0,0,0.28);
+}
+
+.score {
+  font-size: 3rem;
+  display:flex;
+  flex-direction: column;
+}
+
+.delete-div {
+  align-items: right;
+}
+
+.add-topic, h1 {
+  margin: 20px auto; 
+  max-width: 850px;
+  padding: 30px;
+}
